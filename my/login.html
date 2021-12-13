@@ -1,0 +1,250 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+	<meta name="keywords" content="2021 명지대학교 비대면 Career Festival 온(Online)택트 직무/취업박람회" />
+	<meta name="description" content="2021 명지대학교 비대면 Career Festival 온(Online)택트 직무/취업박람회, 희망을 전하는 취업포털 커리어 www.career.co.kr" />
+	<meta name="author" content="커리어" />
+	<meta name="Copyright" content="희망을 전하는 취업 포털 커리어" />
+	<title>2021 명지대학교 비대면 Career Festival 온(Online)택트 직무/취업박람회</title>
+
+	<link rel="shortcut icon" href="/favicon.ico" />
+	<link rel="stylesheet" type="text/css" href="../css/reset.css?20201017" />
+	<link rel="stylesheet" type="text/css" href="../css/jquery-ui.css?20201017" />
+	<link rel="stylesheet" type="text/css" href="../css/common.css?20201017" />
+	<link rel="stylesheet" type="text/css" href="../css/popup.css?20201017" />
+	<link rel="stylesheet" type="text/css" href="../css/sm_sub.css?20201017" />
+
+	<script type="text/javascript" src="../js/jquery-1.12.4.min.js?20201017"></script>
+	<script type="text/javascript" src="../js/jquery-ui.js?20201017"></script>
+	<script type="text/javascript" src="../js/ui.js?20201017"></script>
+	<script type="text/javascript" src="../js/placeholders.min.js?20201017"></script>
+
+	<script type="text/javascript" src="../js/comm_2009.js?20201017"></script>
+	<script type="text/javascript" src="../js/common2.js?20201017"></script>
+	<script type="text/javascript" src="../js/validateCommon.js?20201017"></script>
+
+	
+	
+
+
+
+<script type="text/javascript">
+	/*
+	jQuery(window).load(function() {
+		//GNB 메뉴 활성화
+		var g_menu_navi = '100';
+		if (g_menu_navi != '') {
+			var navi_top = g_menu_navi.split(',')[0];
+			var navi_sub = g_menu_navi.split(',')[1];
+			$('.gnb .parent .m'+navi_top+' .mbtn').addClass('on');
+		}
+	});
+	*/
+</script>
+
+<script type="text/javascript">
+	function fn_submit(e) {
+		if (event.keyCode == 13) {
+			validate(document.lform);
+		}
+	}
+
+	function validate(frm1){
+		var objF = frm1;
+
+		if (objF.id.value.length == 0) {
+			$("#ment_id").show();
+			objF.id.focus();
+			//fieldChk("아이디를 입력해 주세요. ", objF.id);
+			return false;
+		} else {
+			$("#ment_id").hide();
+		}
+
+		if (objF.pw.value.length == 0) {
+			$("#ment_pw").html("비밀번호를 입력해 주세요.");
+			$("#ment_pw").show();
+			objF.pw.focus();
+			//fieldChk("비밀번호를 입력해 주세요. ", objF.pw);
+			return false;
+		} else {
+			$("#ment_pw").hide();
+		}
+
+		if (objF.pw.value.length > 25) {
+			$("#ment_pw").html("비밀번호를 올바르게 입력해 주세요.");
+			$("#ment_pw").show();
+			objF.pw.focus();
+			//fieldChk("비밀번호를 올바르게 입력해 주세요. ", objF.pw);
+			return false;
+		}
+
+		objF.action ="/my/login_check.asp";
+		objF.submit();
+	}
+
+	function setCookie(cookieName, value, exdays){
+		var exdate = new Date();
+		exdate.setDate(exdate.getDate() + exdays);
+		var cookieValue = escape(value) + ((exdays==null) ? "" : "; expires=" + exdate.toGMTString());
+		document.cookie = cookieName + "=" + cookieValue;
+	}
+	 
+	function deleteCookie(cookieName){
+		var expireDate = new Date();
+		expireDate.setDate(expireDate.getDate() - 1);
+		document.cookie = cookieName + "= " + "; expires=" + expireDate.toGMTString();
+	}
+	 
+	function getCookie(cookieName) {
+		cookieName = cookieName + '=';
+		var cookieData = document.cookie;
+		var start = cookieData.indexOf(cookieName);
+		var cookieValue = '';
+		if(start != -1){
+			start += cookieName.length;
+			var end = cookieData.indexOf(';', start);
+			if(end == -1)end = cookieData.length;
+			cookieValue = cookieData.substring(start, end);
+		}
+		return unescape(cookieValue);
+	}
+	
+	$(document).ready(function(){	
+		var key = getCookie("key");
+
+		if(key != ""){ 
+			$("#id").val(key); 
+			$("#save_id").attr("checked", true);
+		}
+		 
+		$("#save_id").change(function(){
+			if($("#save_id").is(":checked")){
+				setCookie("key", $("#id").val(), 30);
+			}else{
+				deleteCookie("key");
+			}
+		});
+		 
+		$("#id").keyup(function(){
+			if($("#save_id").is(":checked")){
+				setCookie("key", $("#id").val(), 30);
+			}
+		});
+	});
+</script>
+</head>
+
+<body id="loginWrap">
+<!-- 상단 -->
+
+
+
+<!-- Skipnavi -->
+<div id="skipnavi">
+	<a href="#header-id">상단 바로가기</a>
+	<a href="#contents-id">본문 바로가기</a>
+	<a href="#footer-id">하단 바로가기</a>
+</div>
+<!-- // Skipnavi -->
+
+<!-- 상단 header -->
+<div id="header">
+	<div class="header_area">
+		<div class="logo-area">
+			<h1>
+				<a href="../default.html"><img src="../images/logo.png" alt="국가보훈처 logo"></a>
+			</h1>
+		</div><!-- .logo-area -->
+		
+		
+		<div class="info_box">
+			<ul>
+				<li><a href="../my/login.html">개인 로그인</a></li>
+				<li><a href="../admin/login.html">관리자 로그인</a></li>
+				<li><a href="../my/join.html">회원가입</a></li>
+			</ul>
+		</div>
+
+		
+
+	</div>
+</div><!-- //header -->
+<!-- //상단 header -->
+<!-- 상단 -->
+
+
+<!-- 컨텐츠 -->
+<div id="contents" class="util">
+	<div class="content">
+		<div class="input_area">
+			<div class="titArea">
+				<h2>
+					로그인<br>
+					<span>2021 명지대학교 비대면 Career Festival 온(Online)택트 직무/취업박람회 취업박람회에 오신 것을 환영합니다.</span>
+				</h2>
+			</div>
+
+			<form name="lform" id="lform" method="post" autocomplete="off" onsubmit="return validate(this);">
+			<input type="hidden" value="W" name="from">
+			<input type="hidden" value="1" name="logtype" class="1">
+			<input type="hidden" name="redir" value="" id="Hidden1">
+			<input type="hidden" name="cp" value="" id="Hidden2">
+			<input type="hidden" name="ReturnUrl" value="" id="Hidden3">
+			<input type="hidden" name="com_id" value="" id="com_id">
+			<input type="hidden" name="passwd" value="" id="passwd">
+			<input type="hidden" name="UserIPAddress" value="218.145.70.165" id="UserIPAddress">
+
+			<div class="login_box">
+				<div class="log_Input">					
+					<input type="text" class="txt placehd" id="id" name="id" placeholder="아이디">
+					<p class="ment" id="ment_id" style="display:none">ID를 입력해 주세요.</p>
+
+					<input type="password" class="txt placehd" id="pw" name="pw" placeholder="비밀번호" onkeyup="FC_ChkTextLen(this,32); fn_submit(this);">
+					<p class="ment" id="ment_pw" style="display:none">비밀번호를 입력해 주세요.</p>
+					<p class="ment" id="ment_pw2" style="display:none">비밀번호를 올바르게 입력해 주세요.</p>
+
+					<button type="button" class="btn" title="" onclick="return validate(document.lform);" style="cursor:pointer">
+						<strong>로그인</strong>
+					</button>
+				</div><!-- .logInput -->
+				<div class="log_Check">
+					<label class="checkbox off" for="save_id">
+						<input class="chk" id="save_id" name="save_id" type="checkbox"><span>ID저장</span>
+					</label>
+					<div class="link">
+						<ul>
+							<li><a href="/my/search/searchID.asp">ID 찾기</a></li>
+							<li><a href="/my/search/searchPW.asp">PW 찾기</a></li>
+						</ul>
+					</div>
+				</div><!-- .logCheck -->
+				
+			</div><!-- login_box -->
+			<div class="btn_area">
+				<a href="/my/signup/join.asp" class="btn gray">참가신청</a>
+			</div>
+		</div>
+	</div><!-- //content -->
+</div><!-- //contents -->
+<!--// 컨텐츠 -->
+
+
+<!-- 하단 -->
+<!-- 하단 -->
+<div id="footer">
+	<div class="footer_area">
+		<div class="footer_info">
+			<address>서울시 구로구 디지털로 32가길 16, 4층, 13층(구로동, 파트너스타워2차)</address>	
+			<p>사업자 등록번호 : 220-86-73547</p>
+			<p>&#169; Copyright (c) CareerNet Co.,LTD. All Rights Reserved.</p>
+		</div>
+	</div><!-- .inner-wrap -->
+</div>
+<!-- //하단 -->
+<!-- 하단 -->
+</body>	
+</html>

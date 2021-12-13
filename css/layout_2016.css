@@ -1,0 +1,240 @@
+@charset "euc-kr";
+
+/* NEW °øÅë */
+#career_wrap {position:relative; margin:0 auto; width:954px;}
+#career_top, #career_footer {clear:both; position:relative; margin:0 auto; width:954px; text-align:left; overflow:hidden;}
+#career_footer .copyright_info .info {display:inline; margin:-3px 0 0 15px;}
+#career_footer .copyright_info span.bar {padding:0 7px 0 6px; font-family:"Malgun Gothic","¸¼Àº °íµñ"; font-size:11px;}
+#career_footer ul {height:26px !important; padding:0 0 0 21px !important; font-size:1px;}
+#career_footer ul li {margin-top:8px;}
+#career_footer ul li a {float:left;}
+
+/* NEW header 2011 */
+#career_header {position:relative; z-index: 100; width:954px; height:165px; margin:0 auto 0; font-family:"Malgun Gothic","¸¼Àº °íµñ"; font-size:12px; line-height:1.23em; text-align:left;}
+#career_header .blind {position:absolute; display:block; width:0; height:0; font-size:0; line-height:0; overflow:hidden; visibility:hidden;}
+#career_header h1 {position:absolute; left:7px; top:19px; font-size:0; }
+#career_header h1 a {display:block;}
+#career_header h1 .sub_title {position:absolute; top:24px; left:131px;}
+#career_header h1 .sub_title a {display: inline;}
+
+/* NEW 2011 */
+#career_header #mini_wrap {position:absolute; right:0; top:6px;}
+#career_header #mini_wrap .util {float:left;}
+#career_header #mini_wrap .util a {display:inline; float:left; width:51px; height:18px; overflow:hidden; margin-left:3px;  background:url(http://image.career.co.kr/career_new2/gnb2/top_menu.gif) no-repeat 0 0; text-indent:-999px;}
+#career_header #mini_wrap .util .login {background-position:0 0;}
+#career_header #mini_wrap .util .logout {background-position:0 -30px;}
+#career_header #mini_wrap .util .join {background-position:0 -60px;}
+#career_header #mini_wrap .util .name {float:left; height:12px; margin-top:4px; padding:0 7px 0 6px; background:url(http://image.career.co.kr/career_new2/gnb2/top_menu.gif) no-repeat 100% -179.63pt; font-family:"Malgun Gothic","¸¼Àº °íµñ";  font-size:11px; line-height:1.2em;}
+#career_header #mini_wrap .util .name a {float:none; width:auto; background-image:none; font-weight:bold; text-indent:0;}
+#career_header #mini_wrap .info {float:left; margin-top:4px;}
+#career_header #mini_wrap .info li {float:left; height:12px; padding:0 7px 0 6px; background:url(http://image.career.co.kr/career_new2/gnb2/top_menu.gif) no-repeat 100% -179.63pt; line-height:0;}/*240px*/
+#career_header #mini_wrap .info li a {color:#666; font-size:11px; font-family:"Malgun Gothic","¸¼Àº °íµñ"; letter-spacing:-1px;  line-height:1.1em;}
+#career_header #mini_wrap .info .m1 a {color:#649306; font-weight:bold;}
+#career_header #mini_wrap .info .m2 a {color:#05559c; font-weight:bold;}
+#career_header #mini_wrap .info .m5 a {font-weight:bold;}
+#career_header #mini_wrap .info .m7 {padding-right:9px; background-image:none; color:#ff6e11; font-weight:bold;}
+#career_header #mini_wrap .service {float:left;}
+#career_header #mini_wrap .service a {display:inline; float:left; height:15px; overflow:hidden; background:url(http://image.career.co.kr/career_new2/gnb2/top_menu.gif) no-repeat 0 0; text-indent:-999px;}
+#career_header #mini_wrap .service .joblink {position:relative; top:-1px; width:45px; height:16px; margin-right:7px; background:url(http://image.career.co.kr/career_new2/gnb2/top_menu_joblink.gif) no-repeat 0 0;}
+#career_header #mini_wrap .service .albaro {width:37px; margin-right:7px; background:url(http://image.career.co.kr/career_new2/gnb2/top_menu.gif) no-repeat 0 -90px;}
+#career_header #mini_wrap .service .center {width:66px; margin-right:0; background:url(http://image.career.co.kr/career_new2/gnb2/top_menu.gif) no-repeat 0 -120px;}
+
+/* GNB NEW 2011 */
+.gnb_2011 { width: 954px; }
+.gnb_2011 .gnb_menu { float:right; height:30px; margin-top:46px;}
+.gnb_2011 .gnb_menu li { display:inline; float: left; }
+.gnb_2011 .gnb_menu li img {vertical-align: top;}
+.gnb_2011 .gnb_menu li .icon {position:relative;}
+.gnb_2011 .gnb_menu li .icon .new {position:absolute; left:0; top:-10px; width:100%; text-align:center;}
+.gnb_2011 .gnb_menu li.division {margin-left:3px;}
+.gnb_2011 .gnb_sub { clear:both; width: 954px; height: 41px; background: url('http://image.career.co.kr/career_new2/gnb2/gnb_basic/bg_gnb.gif') 0 0 no-repeat;}
+.gnb_2011 .gnb_sub li {float: left; }
+.gnb_2011 .gnb_sub li img {vertical-align: top;}
+.gnb_2011 .gnb_sub li.rt_btn {float: right; }
+#top_header {position:relative; z-index:2;}
+#career_header .promotion_img {float:right; height:35px; overflow:hidden; margin-top:1px;}
+
+#career_header #overmenu1  {display:none; border:1px solid #afafaf; background:#fff;}
+#career_header #overmenu1 img {vertical-align:top;}
+#career_header #overmenu1 ul {padding:2px 4px 0 4px; border:2px solid #f6f5f5;}
+#career_header #overmenu1 li {color:#333; font:11px "Malgun Gothic","¸¼Àº °íµñ"; line-height:16px; letter-spacing:-1px;}
+#career_header #overmenu1 li a {color:#333;}
+#career_header #overmenu2 {display:none; border:1px solid #afafaf; background:#fff;}
+#career_header #overmenu2 ul {padding:2px 4px 0 4px; border:2px solid #f6f5f5;}
+#career_header #overmenu2 li {color:#333; font:11px "Malgun Gothic","¸¼Àº °íµñ"; text-align:left; line-height:16px; letter-spacing:-1px;}
+#career_header #overmenu2 li a {color:#333;}
+
+/* NEW 2011 */
+#career_header #navi_area {position:static; display:block; height:38px;  width: 100%; background:url('http://image.career.co.kr/career_new2/gnb2/gnb_sub.gif') no-repeat 0 0;}
+#career_header .navi {float:left; padding:13px 0 0 17px; color:#666; font-family:"Malgun Gothic","¸¼Àº °íµñ",Verdana,AppleGotihc !important; letter-spacing:-1px;}
+#career_header .navi .fc_01, #career_header .navi .fc_01 a {color:#666 !important; font-family:"Malgun Gothic","¸¼Àº °íµñ",Verdana,AppleGotihc !important;}
+
+/* NEW 2011 */
+#career_header #over_job,
+#career_header #over_junior,
+#career_header #over_experience {position:absolute; top:76px; left:0; z-index:99;}
+
+#career_header #over_job .top_bg,
+#career_header #over_junior .top_bg {width:693px; padding-top:18px; background:url(http://image.career.co.kr/career_new/common/bg_over_top.gif) no-repeat; overflow:hidden;}
+#career_header #over_job .bot_bg,
+#career_header #over_junior .bot_bg {_display:inline-block; padding:0 0 12px 0; background:url(http://image.career.co.kr/career_new/common/bg_over_bot.gif) no-repeat left bottom; overflow:hidden;}
+#career_header #over_job .menu_area {float:left; padding:0 20px 0 19px; height:270px; border-left:1px solid #efefef;}
+#career_header #over_junior .menu_area {float:left; padding:0 13px 0 9px; min-height:276px; _height:276px; border-left:1px solid #efefef;}
+#career_header #over_job .first-child,
+#career_header #over_junior .first-child {border-left:0;}
+#career_header #over_job .menu_box,
+#career_header #over_junior .menu_box {padding:0 0 0 15px;}
+#career_header #over_junior .menu_box .depth {margin:3px 0; padding:4px 0 1px 0; background:none; border-top:1px solid #e5e5e5; border-bottom:1px solid #e5e5e5; font:11px "Malgun Gothic","¸¼Àº °íµñ";}
+#career_header #over_junior .menu_box .depth a {font:11px "Malgun Gothic","¸¼Àº °íµñ";}
+#career_header #over_job h5,
+#career_header #over_junior h5 {color:#555; font-weight:bold;}
+#career_header #over_job .arrow,
+#career_header #over_junior .arrow {position:relative; top:-2px; left:5px;}
+#career_header #over_job .list,
+#career_header #over_junior .list {padding:3px 0 0 3px;}
+#career_header #over_job .list li,
+#career_header #over_junior .list li,
+#career_header #over_experience .list li{padding-left:6px; background:url(http://image.career.co.kr/career_new/common/gray_dot19.gif) no-repeat left 6px; color:#666; line-height:17px; letter-spacing:-1px;  font-family:"Malgun Gothic","¸¼Àº °íµñ",Verdana,AppleGotihc;}
+#career_header #over_job .list li a,
+#career_header #over_junior .list li a {color:#666; font-family:"Malgun Gothic","¸¼Àº °íµñ",Verdana,AppleGotihc;}
+#career_header #over_job .list_tt li,
+#career_header #over_junior .list_tt li {margin-bottom:9px;}
+#career_header #over_job .color_job {color:#3176dd;}
+#career_header #over_junior .color_junior {color:#538800;}
+#career_header #over_job .list,
+#career_header #over_junior .list {padding:3px 0 0 4px;}
+#career_header #over_job .list_img li,
+#career_header #over_junior .list_img li {margin-bottom:2px;}
+#career_header #over_job img.img_mg, #career_header #over_junior img.img_mg {position:relative; top:1px; left:4px;}
+
+/* °æ·ÂÃ¤¿ë ¿À¹ö¸Þ´º 110708_skydown@career.co.kr */
+#career_header #over_experience {letter-spacing:-1px;}
+#career_header #over_experience .top_bg {width:693px; padding-top:18px; background:url(http://image.career.co.kr/career_new/common/bg_over_top.gif) no-repeat; overflow:hidden;}
+#career_header #over_experience .bot_bg {_display:inline-block; padding:0 0 12px 0; background:url(http://image.career.co.kr/career_new/common/bg_over_bot.gif) no-repeat left bottom; overflow:hidden;}
+#career_header #over_experience .menu_area {float:left; padding:0 14px 0 7px; min-height:276px; _height:276px; border-left:1px solid #efefef;}
+#career_header #over_experience .first-child {border-left:0;}
+#career_header #over_experience .menu_box {padding:0 0 0 15px;}
+#career_header #over_experience .menu_box .depth {margin:3px 0; padding:4px 0 1px 0; background:none; border-top:1px solid #e5e5e5; border-bottom:1px solid #e5e5e5; font:11px "Malgun Gothic","¸¼Àº °íµñ";}
+#career_header #over_experience .menu_box .depth li {padding-left:0; background:none;}
+#career_header #over_experience h5 {font-weight:bold; font-size:12px;}
+#career_header #over_experience .arrow {position:relative; top:-2px; left:5px;}
+#career_header #over_experience .list {padding:3px 0 0 3px;}
+#career_header #over_experience .list li {padding-left:6px; background:url(http://image.career.co.kr/career_new/common/gray_dot19.gif) no-repeat left 6px; color:#666; line-height:17px;}
+#career_header #over_experience .list li a {color:#666;}
+#career_header #over_experience .list_tt li {margin-bottom:9px;}
+#career_header #over_experience .color {color:#0197B6;}
+#career_header #over_experience .list {padding:3px 0 0 4px;}
+#career_header #over_experience .list_img li {margin-bottom:4px;}
+#career_header #over_experience img.img_mg {position:relative; top:1px; left:4px;}
+#career_header #over_experience li.nobg {background-image:none;}
+
+/* NEW 2011 ½ºÄ«ÀÌ ½ºÅ©·¦ÆÛ */
+#sky_banner1 {position:absolute; left:-102px; top:149px; overflow:hidden;}
+#sky_banner2 {position:absolute; left:-102px; top:275px;}
+
+/* NEW 2011 ÅëÇÕ°Ë»ö */
+#search_area{position:relative; z-index:10; display:inline; float:right; width:244px; height:26px; margin:6px 6px 0 12px;}
+#search_area .search_input {float:left; width:183px; height:24px; padding:1px; line-height:26px; background:url(http://image.career.co.kr/career_new2/gnb2/gnb_sub.gif) no-repeat 0 -50px; color:#333 !important; letter-spacing:-1px; font-family:"Malgun Gothic","¸¼Àº °íµñ",Verdana,AppleGotihc;}
+#search_area .checked {float:left; padding:0 8px; width:60px; height:24px; background:#fff url(http://image.career.co.kr/career_new2/gnb2/gnb_sub.gif) no-repeat 100% -50px; line-height:24px; cursor:pointer; font-family:"Malgun Gothic","¸¼Àº °íµñ",Verdana,AppleGotihc; color:#333;}
+#search_area .selectOrder { float:left;  }
+#search_area ul {position:absolute; left:0; top:25px; z-index:3; width:75px; height:181px; text-align:left; border:1px solid #949494; background:#fff; overflow:hidden;}
+#search_area ul li {height:15px; padding:2px 0 1px 8px; list-style:none; line-height:16px; cursor:pointer; overflow:hidden; font-family:"Malgun Gothic","¸¼Àº °íµñ",Verdana,AppleGotihc; color:#333;}
+#search_area ul li.on {background:#f4f4f4;}
+#search_area ul li#Interview {background-image:none; height:auto; margin-top:0; position:static; width:auto;}
+#search_area .inputText {float:left; width:100px; height:22px; margin:0; padding-left:5px; line-height:22px; border:0 none; background-color:#fff; font-family:"Malgun Gothic","¸¼Àº °íµñ";}
+#search_area .submit {display:inline; float:right; width:56px; height:26px; border:0; background:url(http://image.career.co.kr/career_new2/gnb2/gnb_sub.gif) no-repeat 100% -80px; cursor:pointer;}
+#search_area .submit span {display:block;position:relative; z-index:-1; width:39px;height:16px;padding-top:5px; letter-spacing:-1px; font-weight:bold; font-size:11px;overflow:hidden;}
+
+/* NEW 2011 Ä¿¸®¾î ÅøÁî »çÀÌµå¹Ù */
+#side_careertools {z-index:1; position:absolute; top:149px; right:-59px;}
+#side_careertools img {vertical-align:top;}
+/* // NEW 2011 */
+
+
+/* »ó´Ü ÄÁÅÙÃ÷ */
+#career_top {margin:0; padding:0;}
+#career_tops {zoom:1; /*height:100%;*/ margin:0;}
+
+/* »ó´Ü ±¤°í¿µ¿ª */
+#career_tl {float:left; width:150px;} /* Ã¤¿ë ¸ÞÀÎ»ó´Ü */
+#career_tm {float:left; width:530px; margin-left:12px;} /* Ã¤¿ë ¸ÞÀÎ»ó´Ü */
+#career_tms {float:left; width:530px;} /* °øÅë ¼­ºê»ó´Ü */
+#career_tr {float:right; width:250px;} /* °øÅë »ó´Ü 250¹è³Ê */
+
+/* Áß°£ ÄÁÅÙÃ÷ 1´ÜÀÏ¶§ »ç¿ë */
+#career_container {clear:both; position:relative;  margin:0 auto; width:960px; text-align:left;}
+
+/* ÆË¾÷ - ±â¾÷»ó¼¼Á¤º¸ */
+#career_pop {clear:both; position:relative;  margin:0 auto; width:734px; text-align:left;}
+#career_pop h1 {display:inline; float:left; padding:0 0 7px 10px;}
+#career_pop ul.logo {display:inline; float:right; margin:20px 5px 0 0;}
+#career_pop ul.logo li {display:inline; float:left; margin-right:10px; padding-left:11px; background:url(http://image.career.co.kr/career_new/common/bar_pop.gif) no-repeat left 50%;}
+#career_pop ul.logo li.first-child {margin-top:-2px; padding-left:0; background:none;}
+#career_pop ul.logo li.end {margin-right:0;}
+#career_pop #career_pop_box {padding:20px; border:1px solid #d8e4f2; background:#FFF; position:relative;}
+#career_pop #career_pop_box .img_make {margin-bottom:15px;}
+
+/* ±âº» 2´Ü */
+#career_2col_L {display:inline-block; position:relative; width:954px; padding-bottom:30px; /*background:url(http://image.career.co.kr/career_new/common/bg_col2_lnb.gif) repeat-y left top;*/ text-align:left;}
+#career_2col_L #center {display:inline-block; width:792px; padding-bottom:20px; clear:both;}/* skydown@career.co.kr 2011-10-27 */
+
+/* ¿À¸¥ÂÊ 2´Ü ºäÆäÀÌÁö */
+#career_2col_R {position:relative; width:954px; background:#fff url(http://image.career.co.kr/career_new/common/bg_column2_r.gif) repeat-y; text-align:left;}
+#career_2col_R:after{content: ''; display: block; clear: both;}
+#career_2col_R #center {position:relative; float:left; width:692px; padding-bottom:10px;}
+#career_2col_R #right {position:relative; float:left; width:250px; margin-left:12px; padding-bottom:30px;}
+#career_2col_R #right #con_sub {background:#FFF;}
+
+/* ±âº» 3´Ü */
+#career_3col_L {display:inline-block; position:relative; width:954px; padding-bottom:30px; text-align:left; background:#fff url(http://image.career.co.kr/career_new/common/bg_col3_lnb.gif) repeat-y left top;}
+#career_3col_L #center {float:left; width:530px; margin-right:12px; padding-bottom:23px;}
+#career_3col_L #right {float:left; width:250px; background:#fff;}
+
+/* ±âº» 3´Ü - ¹è°æ¾øÀ½ */
+#career_3col {display:inline-block; position:relative; width:954px; padding-bottom:7px; text-align:left; background:#fff url(http://image.career.co.kr/career_new/common/bg_col2_lnb.gif) repeat-y left top;}
+#career_3col #center {float:left; width:530px; margin-right:12px; padding-bottom:23px;}
+#career_3col #right {float:left; width:250px;}
+
+#career_contents {float:right; width:792px; margin:0; background:#fff;}
+#career_contents #con_sub {float:right; width:792px; margin:0; background:url(http://image.career.co.kr/career_new/common/bg_col_gray.gif) repeat-y;}
+
+/* ÁÂÃø */
+#career_left {position:relative; float:left; width:150px; background:#fff; overflow:hidden;}
+#career_left #lnb {width:150px;}
+#career_left #lnb h4 {letter-spacing:-1px;}
+#career_left #lnb ul {margin-bottom:7px; padding:8px 5px 2px 8px;background:url(http://image.career.co.kr/career_new/lnb/bg_lnb.gif) repeat-y left bottom;}
+#career_left #lnb ul.end {margin:0;}
+#career_left #lnb ul.ul_blue {padding:8px 0 2px 8px !important; background:url(http://image.career.co.kr/career_new/lnb/bg_lnb_blue.gif) repeat-y left bottom;}
+#career_left #lnb li {padding:0 0 6px 6px; background:url(http://image.career.co.kr/career_new/common/gray_dot02.gif) no-repeat left 5px;}
+#career_left #lnb li.none {margin:0; padding:0;}
+#career_left #lnb li.none img {vertical-align:top;}
+#career_left #lnb li img.img_mg {position:relative; left:4px; top:1px;}
+#career_left #lnb li img.new {margin-bottom:-1px;}
+#career_left #lnb li.end {margin:1px 0 8px 0; border-bottom:1px solid #e7e7e7;}
+#career_left #lnb ul.sub {margin:2px 3px 4px -6px; padding:5px 0 0 5px; border:solid #ddd; border-width:1px 0 1px 0; background:none;}
+#career_left #lnb .sub_end {margin-bottom:-4px !important; border-bottom:0 !important;}
+#career_left #lnb ul.sub li {padding:0 0 2px 7px; background:url(http://image.career.co.kr/career_new/common/icon_bullet01.gif) no-repeat left 5px; color:#666; font:11px "Malgun Gothic","¸¼Àº °íµñ"; line-height:17px;}
+#career_left #lnb ul.sub li a {color:#666;}
+#career_left #lnb .banner {margin-bottom:7px; font-size:0;}
+#career_left #customer {_display:inline-block; clear:both; margin:0; overflow:hidden;}
+#career_left #customer ul {padding:8px 8px 2px 8px;background:url(http://image.career.co.kr/career_new/lnb/bg_lnb.gif) repeat-y left bottom;}
+#career_left #customer li {padding:0 0 6px 6px; background:url(http://image.career.co.kr/career_new/common/gray_dot02.gif) no-repeat left 30%;}
+#career_left #customer li.none {margin:0; padding:0;}
+#career_left #customer li.none img {vertical-align:top;}
+#career_left .sub_mg {margin-bottom:15px;}
+#career_left .career_guide {margin:7px 0;}
+
+/* ÇÏ´Ü */
+#career_footer {width:954px; overflow:hidden;}
+#career_footer ul {height:19px; padding:8px 0 0 63px; background:#616161; overflow:hidden;}
+#career_footer li {float:left; height:auto; overflow:hidden;}
+#career_footer li.none {background:none;}
+#career_footer .copyright_info {position:relative; height:43px; padding-top:15px; background:#f8f8f8; font:11px "Malgun Gothic","¸¼Àº °íµñ"; line-height:18px; overflow:hidden;}
+#career_footer .copyright_info .logo {float:left; padding-left:16px;}
+#career_footer .copyright_info .info {display:inline; float:left; width:816px; margin:-3px -3px 0 15px;}
+#career_footer .copyright_info .info address,
+#career_footer .copyright_info .info p {display:inline;}
+#career_footer .copyright_info address {font-style:normal;}
+#career_footer .copyright_info p.copyright {position:absolute; top:35px; right:35px;}
+#career_footer .copyright_info span.bar {padding:0 7px 0 6px; color:#bbb;}
+#career_footer .copyright_info span.email {color:#2d83cc; text-decoration:underline;}

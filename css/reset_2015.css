@@ -1,0 +1,27 @@
+@charset "euc-kr";
+
+/* RESET */
+body, div, p, pre, dl, dt, dd, input, form, fieldset, legend, h1, h2, h3, h4, h5, h6, ul, ol, li{margin:0;padding:0;}
+body{font-size:12px;line-height:1.25;font-family:"Malgun Gothic","¸¼Àº °íµñ",tahoma,sans-serif;letter-spacing:-0.075em;}
+ul, li, ol{list-style: outside none none;}
+a, a:active, a:hover, a:visited{color:inherit;text-decoration:none;}
+button{cursor:pointer;}
+button::-moz-focus-inner{padding:0;border:0;}/* ff style bug */
+em,address{font-style:normal;}
+img, fieldset{border:0;}
+hr{display:none;}
+article,aside,dialog,header,section,footer,nav,figure{display:block;margin:0;padding:0;} /* html5 */
+table{padding:0;margin:0;border-spacing:0;border:0;border-collapse:collapse;}
+caption, legend, .blind{position:absolute;top:-9999em;height:0;overflow:hidden;visibility:hidden;}
+
+/* Á¢±Ù¼º */
+#skipnavi a,
+#skipnavi a:link{z-index:-1;position:absolute;top:-9999em;}
+#skipnavi a:active,
+#skipnavi a:hover,
+#skipnavi a:focus{z-index:9999;top:auto;padding:0 1em;background-color:#fff;line-height:2em;}
+
+/* ¼öÁ¤ CSS */
+.tbcenter{margin:0 auto;}
+
+/* //CSS */

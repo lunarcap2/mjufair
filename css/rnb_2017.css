@@ -1,0 +1,88 @@
+@charset "euc-kr";
+
+/* RNB */
+.rnbWrap{position:absolute;top:30px;right:50%;margin-right:-620px;}
+.rnbWrap .inner{}
+.rnbWrap .layerPop .dim{position:absolute;top:0;left:0;width:100%;height:100%;z-index:999999;background:#fff;opacity:.9;filter:alpha(opacity=90);}
+
+
+.toolTab{width:120px;font-family:"Malgun Gothic","맑은 고딕"; border: 1px solid #e5e5e5;box-sizing:border-box;}
+.toolTab:after{display:table;content:"";clear:both;}
+.toolTab h4{font-size:11px;font-weight:bold;text-align:center;}
+.toolTab h4 a{display:block;padding:11px 0;border-bottom:1px solid #e5e5e5;color:#000000;background:#fff;}
+.toolTab ul {padding:12px 0 14px;background:#fff;}
+.toolTab li{position:relative;border-top:none;}
+.toolTab li:after{content:"";display:inline-block;clear:both;position:absolute;right:12px;top:50%;width:6px;height:9px;margin-top:-5px;}
+.toolTab li a{display:block;padding:8px 0;font-size:11px;color:#515151;line-height:12px;text-align: center;}
+.toolTab li a span {display:block;vertical-align:middle;}
+.toolTab li a:before{content:"";display:inline-block;clear:both;width:37px;height:37px;background:url(http://image.career.co.kr/career_new4/common/tool_icon.png) no-repeat;font-size:0;text-indent:-9999em;vertical-align:middle;}
+.toolTab li.tool1 a:before{background-position:-2px 0;}
+.toolTab li.tool2 a:before{background-position:0 -64px;}
+.toolTab li.tool3 a:before{background-position:0 -128px;margin:0 0 3px;}
+.toolTab li.tool4 a:before{background-position:0 -194px;margin:0 0 3px;}
+.toolTab li.tool5 a:before{background-position:0 -257px;margin:0 0 7px;}
+.toolTab li.tool6 a:before{background-position:0 -321px;margin:0 0 7px;}
+.toolTab li.tool7 a:before{background-position:0 -390px;margin:0 0 5px;}
+.rnbWrap .fixArea{position:absolute;top:228px;width:auto;}
+.rnbWrap .fixArea > div{margin-top:15px;}
+.rnbWrap .fixArea > div:first-child{margin-top:0;}
+.rnbWrap .fixArea .topBtn{display:none;}
+.rnbWrap .fixArea .topBtn a{display:inline-block;width:50px;height:50px;background:url(http://image.career.co.kr/career_new3/kangso/company/info/btn_sns.png) no-repeat 0 -250px;font-size:0;text-indent:-999em;vertical-align:top;}
+
+/* 기업회원서비스 */
+#rnb.type1 .listTab{width:170px;background-color:#fff;border:1px solid #e5e5e5;}
+#rnb.type1 .listTab ul{padding-bottom:28px;}
+#rnb.type1 .listTab li{padding:28px 0 0 23px;background-color:#fff;}
+#rnb.type1 .listTab li a{font-family:"Malgun Gothic","맑은 고딕";font-size:15px;color:#333;}
+#rnb.type1 .listTab li a .num{margin-left:7px;font-size:13px;font-weight:normal;color:#9e9e9e;}
+#rnb.type1 .listTab li.on a{font-weight:bold;color:#0096ff;}
+#rnb.type1 .banTab{background-color:#ff6114;border:1px solid #dc7300;}
+#rnb.type1 .banTab > a{display:block;position:relative;padding:19px 0;text-align:center;}
+#rnb.type1 .banTab > a strong{font-size:17px;color:#fff;}
+/* 기업회원서비스 */
+
+.snsTab{width:50px;}
+.snsTab ul{}
+.snsTab ul li{display:block;width:50px;height:50px;margin-top:10px;background:url(http://image.career.co.kr/career_new4/common/sprite_bg.png) no-repeat;font-size:0;text-indent:-9999em;}
+.snsTab ul li:first-child{margin-top:0;}
+.snsTab ul li.kakao{background-position:-610px 0;}
+.snsTab ul li.facebook{background-position:-610px -50px;}
+.snsTab ul li.twitter{background-position:-610px -100px;}
+.snsTab ul li.blog{background-position:-610px -150px;}
+.snsTab ul li.allView{background-position:-610px -200px;}
+.snsTab ul li.top{background-position:-610px -250px;}
+.snsTab ul li a{display:block;width:100%;height:100%;}
+
+/* 최근본채용공고 */
+.viewedRecruit{width:148px;border:solid #dcdcdc;border-width:0 1px 1px;border-top:2px solid #696969;}
+.viewedRecruit .contArea{padding:14px 0;border-bottom:1px solid #dcdcdc;text-align:center;}
+.viewedRecruit .contArea > strong{display:block;margin-bottom:10px;font-size:15px;}
+.viewedRecruit .contArea span{font-size:14px;color:#333;}
+.viewedRecruit .contArea span strong{font-size:25px;color:#00c0ff;}
+.viewedRecruit .btnArea{}
+.viewedRecruit .btnArea button{width:148px;height:35px;background-color:#f7f7f7;font-family:"Malgun Gothic","맑은 고딕";font-size:12px;color:#666;text-align:center;}
+.viewedRecruit .btnArea button span:after{content:"";display:inline-block;clear:both;width:7px;height:4px;margin-left:8px;background:url(http://image.career.co.kr/career_new4/common/sprite_bg.png) no-repeat 0 -148px;vertical-align:middle;}
+
+/* SNS 레이어팝업 */
+.popWrap .popCon .snsArea{overflow:hidden;width:560px;margin:0 auto;padding-bottom:62px;font-size:20px;}
+.popWrap .popCon .snsArea li{float:left;width:110px;height:110px;margin-left:40px;background:url(http://image.career.co.kr/career_new4/common/sprite_bg.png) no-repeat;text-align:center;}
+.popWrap .popCon .snsArea li.facebook{margin-left:0;background-position:-500px 0;}
+.popWrap .popCon .snsArea li.kakao{background-position:-500px -110px}
+.popWrap .popCon .snsArea li.blog{background-position:-500px -220px}
+.popWrap .popCon .snsArea li.band{background-position:-500px -330px}
+.popWrap .popCon .snsArea li a{display:block;width:100%;padding-top:110px;letter-spacing:-2px;color:#000;}
+.popWrap .popCon .urlArea{position:relative;font-size:20px;}
+.popWrap .popCon .urlArea .snsUrl{width:673px;height:34px;padding:13px 20px;background:#fff;border:1px solid #b3b3b3;}
+@media \0screen {
+.popWrap .popCon .urlArea .snsUrl{padding:15px 20px;}
+}
+.popWrap .popCon .urlArea .snsUrl label{vertical-align:middle;}
+.popWrap .popCon .urlArea .snsUrl label:after{content:"";display:inline-block;clear:both;width:1px;height:30px;margin-left:20px;background-color:#b5b5b5;vertical-align:middle;}
+.popWrap .popCon .urlArea .snsUrl input{width:477px;height:30px;border:none;font-family:"Malgun Gothic","맑은 고딕";font-size:18px;color:#666;line-height:30px;vertical-align:middle;text-indent:10px;}
+.popWrap .popCon .urlArea button{position:absolute;top:0;right:0;width:120px;height:62px;background:#5075cd;border:1px solid #3d60b4;font-family:"Malgun Gothic","맑은 고딕";font-size:20px;color:#fff;}
+ @media \0screen {
+	.popWrap .popCon .urlArea button{height:66px;}
+}
+#layerSns.popWrap .closeBtn{left:50%;top:-87px;width:36px;height:36px;margin-left:-18px;background:url(http://image.career.co.kr/career_new4/common/sprite_bg.png) no-repeat -188px -217px;}
+
+/* //CSS */

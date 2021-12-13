@@ -1,0 +1,34 @@
+/* UIÆÀ 2012-02-07 skydown@career.co.kr */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,form,fieldset,p,button,th,td,input{margin:0;padding:0;}
+body{padding-top:77px; background:url(http://image.career.co.kr/career_new/error/bg.gif) repeat-x left top; text-align:center;}
+body,div,dl,dt,dd,h1,h2,h3,h4,form,fieldset,p,th,td,input,select {color:#333;font-family:Arial, "±¼¸²",Gulim, "µ¸¿ò", Dotum; font-size:12px;font-weight:normal; letter-spacing:-1px;}
+img, fieldset, input, button {border:0 none;}
+li {list-style:none;}
+hr, legend, caption {display:none;}
+table {border-collapse:collapse; margin:0; padding:0;}
+br {letter-spacing:0;}
+
+#error_area {width:654px; margin:0 auto; padding-bottom:100px; text-align:left;}
+#error_area h1 {position:relative; left:2px;}
+#error_area .header {_display:inline-block; position:relative; padding-bottom:4px; border-bottom:4px solid #014e92; overflow:hidden; vertical-align:bottom;}
+#error_area .top_menu {position:absolute; bottom:6px; right:1px;}
+#error_area .top_menu li {_display:inline; float:left; margin-left:18px; padding-left:18px; background:url(http://image.career.co.kr/career_new/error/menu_bar.gif) no-repeat left 1px;}
+#error_area .top_menu li.first {background:none;}
+#error_area .tit_area {padding:0 0 40px 141px; background:url(http://image.career.co.kr/career_new/error/img_p.gif) no-repeat 24px 0;}
+#error_area .tit_area h2 {margin:35px 0 32px 0;}
+#error_area .txt_box {color:#666; line-height:16px;}
+#error_area .footer {clear:both; margin-top:40px; padding-top:12px; border-top:1px solid #e9e8e8; color:#b1b1b1; font:11px Verdana; letter-spacing:normal; text-align:center;}
+
+/* ÆÄ¿ö¼­ºñ½º */
+.powerService {}
+.powerService img {vertical-align:top;}
+.powerService h2 {height:26px; padding-top:12px; background:none repeat-x 0 0; text-align:center;}
+.powerService ul {position:relative; width:660px; height:1%; overflow:hidden; margin-right:-7px;}
+.powerService ul li {float:left; width:325px; margin-right:5px;}
+.powerService .person,
+.powerService .company {position:relative;}
+.powerService .person h2 {background-image:url(http://image.career.co.kr/career_new2/error/person_bg.gif);}
+.powerService .person ul li {margin-top:12px;}
+.powerService .company {clear:both; margin-top:19px;}
+.powerService .company h2 {background-image:url(http://image.career.co.kr/career_new2/error/company_bg.gif);}
+.powerService .company ul li {margin-top:14px;}

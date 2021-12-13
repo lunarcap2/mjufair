@@ -1,0 +1,224 @@
+@charset "euc-kr";
+
+/* COMMON */
+
+/* ÀÎÇ² */
+textarea.area{padding:30px;resize:none;border:1px solid #dcdcdc;font-size:22px;}
+select,textarea{font-family:"Malgun Gothic","¸¼Àº °íµñ";font-size:13px;color:#000;background:#fff;}
+label{cursor:pointer;}
+label,
+label input{vertical-align:top;}
+label span{color:#333;font-size:15px;}
+input.txt{width:100%;height:36px;border:none;font-size:16px;line-height:36px;vertical-align:top;box-sizing:border-box;letter-spacing:-0.075em;outline:none;}
+input.value, textarea.value{color:#999 !important;}
+.placeholder {color:#999;}
+:-ms-input-placeholder {color:#999;} /* M$ */
+::-webkit-input-placeholder {color:#999;} /* webkit */
+::-moz-placeholder{color:#999;} /* firefox */
+.placehd:focus::-webkit-input-placeholder {color:transparent;}
+input.chk,
+input.rdi{width:22px;height:22px;color:#999;font-size:13px;opacity:0;filter:alpha(opacity=0);cursor:pointer;}
+label.radiobox,
+label.checkbox{display:inline-block;zoom:1;*display:inline;height:22px;line-height:22px;vertical-align:middle;}
+label.radiobox,
+label.checkbox{margin:0 0 0 7px;}
+label.radiobox.lb,
+label.checkbox.lb,
+label.radiobox:first-child,
+label.checkbox:first-child{margin-left:0 !important;}
+label.radiobox span,
+label.checkbox span{margin-left:5px;}
+label.radiobox{background:url(https://image.career.co.kr/career_new4/common/ico_form.png) no-repeat 0 0;}
+label.radiobox.on{background-position:0 -36px;}
+label.checkbox{background:url(https://image.career.co.kr/career_new4/common/ico_form.png) no-repeat 0 -1003px;}
+label.checkbox.on{background-position:0 -1045px;}
+span.selectbox{position:relative;display:inline-block;height:36px;overflow:hidden;vertical-align:middle;}
+span.selectbox span{display:block;height:auto;overflow:hidden;padding:10px 38px 11px 10px;background:#fff url(https://image.career.co.kr/career_new4/common/ico_form.png) no-repeat 100% -1168px;border:1px solid #dbdbdb;color:#000;font-size:13px;line-height:1;letter-spacing:-0.075em;}
+span.selectbox select{z-index:1;position:absolute;left:0;top:0;width:100%;height:100%;margin:0;padding:0;opacity:0;filter:alpha(opacity=0);}
+/* ºñÈ°¼º */
+.disable{cursor:default;opacity:0.50;filter:alpha(opacity=50);}
+.disable select{display:none;}
+.disable input.txt.on{border-color:#bbb !important;}
+
+/* BUTTON */
+button{font-family:"Malgun Gothic","¸¼Àº °íµñ";}
+.arrBk:after{content:"";display:inline-block;clear:both;width:4px;height:7px;margin-left:5px;background:url(https://image.career.co.kr/career_new4/common/sprite_bg.png) no-repeat -87px -132px;vertical-align:middle;}
+
+/* LAYOUT */
+#joinWrap{background-color:#f8f8f8;}
+.memberInfoWrap{width:720px;padding-bottom:35px;margin:0 auto;}
+
+/* HEADER */
+.topWrap{position:relative;width:720px;height:154px;margin:0 auto;}
+.topWrap h1{position:absolute;left:50%;top:60px;width:214px;height:55px;margin-left:-107px;}
+.topWrap .utilArea{position:absolute;top:20px;right:0;}
+.topWrap .utilArea ul li{float:left;position:relative;margin-left:8px;}
+.topWrap .utilArea ul li:first-child{margin-left:0;}
+.topWrap .utilArea ul li a{font-family:"Malgun Gothic","¸¼Àº °íµñ";font-size:12px;font-weight:bold;color:#72797f;}
+.topWrap .utilArea ul li a:before{content:"\007C";display:inline-block;clear:both;margin-right:8px;font-size:12px;color:#d5d5d5;vertical-align:top;}
+.topWrap .utilArea ul li:first-child a:before{display:none;}
+
+/* TAB */
+.memberTab{width:100%;box-shadow:5px 5px 0 rgba(185, 185, 185, 0.1);}
+.memberTab ul:after{display:block;content:"";clear:both;}
+.memberTab li{float:left;margin-left:-1px;}
+.memberTab li:first-child{margin-left:0;}
+.memberTab li a{display:block;width:358px;height:78px;background:#f6f6f6;border:1px solid #d8d8d8;font-family:"Malgun Gothic","¸¼Àº °íµñ";font-size:22px;vertical-align:top;color:#888;text-align:center;line-height:78px;}
+.memberTab li:first-child a{width:359px;}
+.memberTab li.on a{position:relative;z-index:1;height:79px;background:#fff;border-bottom:0;color:#000;}
+.memberTab li.on a span{padding-bottom:5px;border-bottom:2px solid #f28721;}
+.memberTab + .layoutBox{margin-top:0;border-top:none;}
+.memberTab.type{box-shadow:none;}
+.memberTab.type li a{width:148px;height:66px;background-color:#fff;border:1px solid #e2e2e2;font-size:16px;color:#999;line-height:66px;}
+.memberTab.type li:first-child a{width:149px;}
+.memberTab.type li{}
+.memberTab.type li.on a{border:1px solid #0096ff;color:#0096ff;}
+.memberTab.type li a span{margin-left:0;font-size:16px;color:#999;}
+.memberTab.type li a span:before{content:"";display:inline-block;clear:both;width:16px;height:16px;padding-right:5px;background:url(https://image.career.co.kr/career_new4/register/ico_form.png) no-repeat 0 0;vertical-align:-3px;}
+.memberTab.type li.on a span{padding-bottom:0;border-bottom:none;color:#0096ff;}
+.memberTab.type li.on a span:before{background-position:0 -16px;}
+.memberTab.type .memExp p{display:none;padding:13px 0 0 10px;font-size:13px;color:#333;}
+.memberTab.type .memExp p:first-child{display:block;}
+.memberTab.type .memExp p strong{color:#0096ff;}
+
+/* LAYOUTBOX */
+.layoutBox{position:relative;padding:60px;margin-top:30px;background-color:#fff;border:1px solid #d8d8d8;box-shadow:5px 5px 0 rgba(185, 185, 185, 0.1);}
+/*.layoutBox .memberInfo{display:none;}
+.layoutBox .memberInfo:first-child{display:block;}*/
+
+/* TITLE */
+.titArea{position:relative;padding:50px 0 15px;vertical-align:bottom;}
+.titArea:after{display:block;content:"";clear:both;}
+.titArea:first-child{padding-top:0;}
+.titArea h3{float:left;margin-right:10px;font-size:22px;font-weight:normal;color:#000;}
+.titArea .txt{position:relative;top:10px;font-size:15px;color:#7d7d7d;}
+.titArea .txt .num{vertical-align:-1px;color:#ff5b00;}
+
+/* SOCIALLOG */
+.socialLog{background-color:#fff;}
+.socialLog:after{content:'';clear:both;display:block;}
+.socialLog li{position:relative;float:left;width:297px;height:52px;margin:-1px 0 0 -1px;background:url(https://image.career.co.kr/career_new4/common/sprite_bg.png) no-repeat;border:1px solid #dbdbdb;line-height:52px;}
+.socialLog a{display:block;padding-left:56px;font-family:"Malgun Gothic","¸¼Àº °íµñ";font-size:16px;text-align:left;color:#333;}
+.socialLog a:before{content:"";display:inline-block;clear:both;width:1px;height:18px;margin-right:15px;background-color:#e4e4e4;vertical-align:middle;}
+.socialLog a:hover{text-decoration:none;}
+.socialLog .sl1,
+.socialLog .sl3{width:298px;margin-left:0;}
+.socialLog .sl1{background-position:-658px -293px;}
+.socialLog .sl2{background-position:-658px -335px;}
+.socialLog .sl3{background-position:-658px -377px;}
+.socialLog .sl4{background-position:-658px -419px;}
+.socialLog .sl1.off{background-position:-658px -461px;}
+.socialLog .sl2.off{background-position:-658px -503px;}
+.socialLog .sl3.off{background-position:-658px -545px;}
+.socialLog .sl4.off{background-position:-658px -587px;}
+
+/* È¸¿øÁ¤º¸ÀÔ·Â */
+.inputArea:after{content:"";display:block;clear:both;}
+.inputArea .inp{position:relative;padding:15px 12px 15px 32px;margin-top:10px;border:1px solid #e2e2e2;color:#000;}
+.inputArea .inp:before{content:"\002A";display:inline-block;clear:both;position:absolute;left:15px;top:25px;z-index:2;font-size:20px;color:#ff7800;}
+.inputArea .inp.on{border-color:#000;position:relative;z-index:1;}
+.inputArea .inp.bgNone{padding-left:15px;}
+.inputArea .inp.bgNone:before{display:none;}
+.inputArea .inp:after{content:"";display:block;clear:both;}
+.inputArea .inp:first-child{margin-top:0;}
+.inputArea .inp input.txt{}
+.inputArea .inp .btn.typeGray{background-color:#323232;border:1px solid #1e1e1e;color:#fff;}
+.inputArea .inp > label{display:none;}
+.inputArea .inp .rt{position:absolute;right:12px;top:12px;line-height:42px;}
+.inputArea .inp .rt:after{content:"";display:block;clear:both;}
+.inputArea .inp .rt > div{float:left;}
+.inputArea .inp .fileArea .rt{top:0;right:0;}
+.inputArea .inp button{width:130px;height:42px;margin-left:15px;background-color:#f7f8fb;border:1px solid #e2e2e2;font-size:14px;color:#222;text-align:center;line-height:38px;letter-spacing:-0.075em;}
+.inputArea .inp input.pw1 {margin-top:-1px;background:url(https://image.career.co.kr/career_new4/register/bg_input_pw1.png) no-repeat 0 55%;}
+.inputArea .inp input.pw2 {margin-top:-1px;background:url(https://image.career.co.kr/career_new4/register/bg_input_pw2.png) no-repeat 0 55%;}
+.inputArea .inp input.bgnone {width:100%;background-image:none;}
+.inputArea .inp.addr input.txt{width:410px;}
+.inputArea .inpGroup{position:relative;width:100%;height:68px;margin-top: 10px;}
+.inputArea .inpGroup:after{content:"";display:block;clear:both;}
+.inputArea .inpGroup .inp{position:absolute;right:0;top:0;width:254px;margin-top:0;}
+.inputArea .inpGroup .inp input.txt{}
+.inputArea .inpGroup .inp:first-child{width:253px;left:0;}
+.inputArea .notiArea{padding:10px 0 0 10px;font-size:13px;color:#666;line-height:20px;}
+.inputArea .alertBox span{font-size:11px;}
+.inputArea .alertBox .good{color:#0096ff;}
+.inputArea .alertBox .bad{color:#f73f1b;}
+.inputArea .alertBox .num{font-family:tahoma;font-size:12px;letter-spacing:0;}
+.inputArea .rt + .alertBox{margin-bottom:12px;font-size:11px;}
+.inputArea .rt + .alertBox p{margin-top:5px;font-size:11px;color:#666;}
+.inputArea .rt + .alertBox p:first-child{margin-top:0;}
+.inputArea .rt + .alertBox p a{color:#333;}
+.inputArea .rt + .alertBox .good{color:#0096ff;}
+.inputArea .idBox{margin:-5px 0 0 -5px;}
+.inputArea .idBox:after{content:"";display:block;clear:both;}
+.inputArea .idBox li{float:left;padding:6px 10px;margin:5px 0 0 5px;border:1px solid #e2e2e2;font-size:13px;color:#333;}
+.inputArea .idBox li .num{font-family:tahoma;letter-spacing:0;color:#999;}
+
+/* fileAddArea */
+.fileArea{position:relative;display:block;height:89px;}
+.fileArea > label{display:none;}
+.fileArea input.txt{position:relative;width:100%;height:42px;line-height:42px;}
+.fileArea input[type=file]{z-index:1;position:absolute;left:0;top:0;width:100%;height:42px;opacity:0;filter:alpha(opacity=0);cursor:pointer;}
+.fileArea button{display:block;margin-top:5px;}
+.fileArea button:first-child{margin-top:0;}
+
+/* ¼ö½Åµ¿ÀÇ */
+.receiveArea{margin-top:10px;}
+.receiveArea span{font-size:14px;color:#000;}
+.receiveArea + .inp{margin-top:20px;}
+
+/* ÀÌ¿ë¾à°ü ¹× °³ÀÎÁ¤º¸ ¼öÁý µ¿ÀÇ */
+.agreeArea{position:relative;}
+.agreeArea .rt{position:absolute;right:0;top:-41px;}
+.agreeArea .rt > label{font-size:14px;color:#000;}
+.agreeArea > .rt > label{background:none;}
+.agreeArea > .rt > label:after{content:"";display:inline-block;clear:both;position:absolute;right:0;top:0;width:22px;height:22px;background:url(https://image.career.co.kr/career_new4/common/ico_form.png) no-repeat 0 -1003px;}
+.agreeArea > .rt > label.on:after{background-position:0 -1045px;}
+.agreeArea > .rt > label span{margin:0 5px 0 0;}
+.agreeArea > dl{padding:12px;margin-top:10px;border:1px solid #e2e2e2;font-size:16px;color:#000;}
+.agreeArea > dl:first-child{margin-top:0;}
+.agreeArea > dl > dt{position:relative;font-size:16px;color:#000;line-height:40px;}
+.agreeArea > dl > dt em{font-size:12px;color:#ff6114;}
+.agreeArea > dl > dt:before{content:"\002A";display:inline;clear:both;margin-right:10px;font-size:20px;color:#ff7800;vertical-align:middle;}
+.agreeArea > dl > dt .rt{position:absolute;right:0;top:0;}
+.agreeArea > dl > dt .rt button{width:111px;height:42px;margin-left:15px;background-color:#f7f8fb;border:1px solid #e2e2e2;font-size:14px;color:#222;letter-spacing:-0.075em;}
+.agreeArea > dl > dt .rt button span:after{content:"";display:inline-block;clear:both;width:7px;height:4px;margin-left:10px;background:url(https://image.career.co.kr/career_new4/common/sprite_bg.png) no-repeat -117px -156px;vertical-align:middle;}
+.agreeArea > dl > dt .rt button.on span:after{background-position:-117px -152px;}
+.agreeArea .terms{display:none;margin-top:12px;background-color:#f7f8fb;border:1px solid #c8c8c8;font-size:14px;color:#999;text-align:left;}
+.agreeArea .terms * {font-family:"Malgun Gothic","¸¼Àº °íµñ",tahoma,sans-serif;line-height:25px;}
+.agreeArea .terms .termsInner{overflow-y:scroll;height:300px;padding:20px;}
+.agreeArea .terms strong {color:#333;}
+.agreeArea .terms .req {padding:20px 15px 0; white-space:nowrap;}
+.agreeArea .terms dt {padding-bottom:10px;}
+.agreeArea .terms * {font-family:"Malgun Gothic","¸¼Àº °íµñ",tahoma,sans-serif;}
+.agreeArea .terms h2 {margin:30px 0 10px; color:#666; font-size:14px; font-weight:bold;}
+.agreeArea .terms h3 {margin-top:10px; color:#666; font-size:13px; font-weight:bold;}
+.agreeArea .terms h4 {margin-bottom:5px; color:#666; font-size:12px; font-weight:normal;}
+.agreeArea .terms p {margin:15px 0;}
+.agreeArea .terms p:first-child {margin-top:0;}
+.agreeArea .terms ol li {margin-bottom:30px;}
+.agreeArea .terms > ul {padding-left:25px;}
+.agreeArea .terms > ul li {margin-bottom:10px;}
+.agreeArea .terms > ul li em {display:inline-block; width:7px; margin-left:-10px;}
+.agreeArea .terms > ul ul {margin-bottom:20px;}
+.agreeArea .terms > ul ul li {margin-bottom:5px;}
+.agreeArea .terms .tb {width:100%; margin:4px 0 13px; border-collapse:collapse;}
+.agreeArea .terms .tb th {background-color:#f6f6f6; font-weight:bold; text-align:center;}
+.agreeArea .terms .tb th,
+.agreeArea .terms .tb td {padding:7px 0 4px; border:1px solid #ddd; word-break: keep-all; text-indent:0;}
+.agreeArea .terms .tb div {padding:0 10px;}
+.agreeArea .terms .tb td {vertical-align:top;}
+.agreeArea .terms ol.index {margin-bottom:30px;}
+.agreeArea .terms ol.index li {margin-bottom:0;}
+.agreeArea .terms ol.index li a {color:#666;text-decoration:underline;}
+
+/* btnWrap */
+.btnWrap{position:relative;zoom:1;overflow:hidden;width:100%;padding-top:30px;text-align:center;}
+.btnWrap:after{content:"";display:block;clear:both;}
+.btnWrap .btn{display:inline-block;width:100%;height:83px;background-color:#0096ff;border:1px solid #0085ec;font-size:22px;line-height:83px;color:#fff;letter-spacing:-0.075em;}
+
+/* ÇªÅÍ */
+.footerWrap{position:relative;width:100%;padding-bottom:60px;margin:0 auto;}
+.footerWrap .copyright{font-family:tahoma,sans-serif;font-size:12px;color:#000;text-align:center;letter-spacing:0;}
+.footerWrap .copyright em{color:#0084ff;}
+
+/* //CSS */

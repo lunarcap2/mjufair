@@ -1,0 +1,18 @@
+@charset "euc-kr";
+
+/* RESET */
+body {font-family: "NanumGothic"; font-size:12px; line-height:1.23em; letter-spacing:-1px;}
+body, div, p, pre, dl, dt, dd, input, form, fieldset, legend, h1, h2, h3, h4, h5, h6, ul, ol, li {margin:0; padding:0;}
+h1, h2, h3, h4, h5, h6 {font-size:12px;}
+ul, ol, li {list-style:none;letter-spacing:-1px;}
+a {color:#494949; text-decoration:none;}
+a:hover {text-decoration:none;}
+dt {font-weight:bold;}
+em {font-style:normal;}
+img, fieldset, iframe {border:0;}
+hr {display:none;}
+input,select,textarea {font-family: "NanumGothic"; letter-spacing:-1px;}
+button {font-family: "NanumGothic"; letter-spacing:-1px;border: none;}
+table{padding:0;margin:0;border-spacing:0;border:0;table-layout: fixed;}
+caption, legend, .blind{position:absolute;top:-9999em;height:0;overflow:hidden;visibility:hidden;}
+/* //CSS */
